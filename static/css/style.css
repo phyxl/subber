@@ -43,7 +43,7 @@
 	h1,h2,h3,h4,h5,h6
 	{
 		font-weight: 400;
-		color: #483949;
+		color: white;
 		line-height: 1.25em;
 	}
 	
@@ -638,7 +638,7 @@
 	}
 
 		.goto-next:before {
-			background-image: url("images/arrow.svg");
+			background-image: url("static/images/arrow.svg");
 			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: contain;
@@ -746,7 +746,7 @@
 		}
 
 		.spotlight:before {
-			background-image: url("images/overlay.png");
+			background-image: url("static/images/overlay.png");
 			content: '';
 			display: block;
 			height: 100%;
@@ -1412,7 +1412,7 @@
 				position: absolute;
 				top: 50%;
 				margin: -1.5em 0 0 0;
-				background: url('images/arrow.svg') no-repeat center center;
+				background: url('static/images/arrow.svg') no-repeat center center;
 			}
 
 			.carousel .forward:after

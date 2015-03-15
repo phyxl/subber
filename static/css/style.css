@@ -749,7 +749,7 @@
 		}
 
 		.spotlight:before {
-			background-image: url("static/images/overlay.png");
+			background-image: url("images/overlay.png");
 			content: '';
 			display: block;
 			height: 100%;

@@ -75,14 +75,43 @@
 									<h2>Tell us about yourself</h2>
 								</header>
 							</div>
+							<form class="8u" name="identityform" method="post" action="save-identity">
+								<div class="row">
+									<div class="6u 10u(mobile)">
+										<input type="text" name="firstname" placeholder="First Name">
+									</div>
+									<div class="6u 10u(mobile)">
+										<input type="text" name="lastname" placeholder="Last Name">
+									</div>
+								</div>
+								<div class="row">
+									<div class="12u 10u(mobile)">
+										<input type="text" name="email" placeholder="Email Address">
+									</div>
+								</div>
+                                <div class="row">
+									<div class="12u 10u(mobile)">
+										<input type="text" name="phone" placeholder="Phone Number">
+									</div>
+								</div>
+							</form>
 						</div>
                         <div class="row">
-                            <form name="identityform" method="post" action="save-identity">
-                                <div class="12u -4u 10u(mobile)">
-                                    <input type="text" name="firstname" placeholder="First Name">
-                                </div>
-                            </form>
+                            <div class="12u">
+                                <h2 style="text-align:center">or</h2>
+                            </div>  
                         </div>
+						<div class="row">
+							<div class="12u 12u(medium)">
+							</div>
+						</div>
+						<div class="row">
+							<div class="12u 12u(medium)" >
+								<div style="background-color: #7490c3;color: #fff; height:56px; text-align:center; line-height:56px;border-radius:.5em;">
+								Login with facebook
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 				<a href="#two" class="goto-next scrolly">Next</a>
@@ -101,7 +130,31 @@
 									
 								</header>
 							</div>
-							
+							<form class="8u" name="housepreference" method="post" action="save-preference">
+                                <div class="row">
+									<div class="12u 10u(mobile)">
+										<select>
+                                            <option>Spring</option>
+                                             <option>Summer</option>
+                                             <option>Fall</option>
+                                        </select>
+									</div>
+								</div>
+								<div class="row">
+									<div class="6u 10u(mobile)">
+										<input type="text" name="pricelow" placeholder="">
+									</div>
+									<div class="6u 10u(mobile)">
+										<input type="text" name="pricehigh" placeholder="">
+									</div>
+								</div>
+								<div class="row">
+									<div class="12u 10u(mobile)">
+										<input type="text" name="email" placeholder="">
+									</div>
+								</div>
+                                
+							</form>
 						</div>
 					</div>
 				</div>
@@ -121,6 +174,11 @@
 								</header>
 							</div>
 						</div>
+                        <div class="row">
+                            <div class="4u -4u 12u(medium)">
+                                <p>Relax, take a breath. We'll take care of the work from here. We'll let you know when we have a match!</p>
+                            </div>
+                        </div>
 					</div>
 				</div>
 			</section>

@@ -353,7 +353,7 @@
 				ul.menu li
 				{
 					display: inline-block;
-					border-left: solid 1px rgba(128,128,128,0.2);
+					border-left: solid 1px rgba(128,128,128,1);
 					padding-left: 1.25em;
 					margin-left: 1.25em;
 				}
@@ -1298,14 +1298,14 @@
 		position: relative;
 		overflow: hidden;
 		padding: 6em 0 6em 0;
-		background: #2b252c;
+		background: rgba(0 0 0 0);
 		color: #fff;
 	}
 
 		#footer .icon.circled
 		{
 			background: #fff;
-			color: #2b252c;
+			color: #fff;
 		}
 
 		#footer header
@@ -1337,19 +1337,19 @@
 		#footer .copyright
 		{
 			text-align: center;
-			color: rgba(128,128,128,0.75);
+			color: #fff;
 			font-size: 0.8em;
 			cursor: default;
 		}
 
 			#footer .copyright a
 			{
-				color: rgba(128,128,128,0.75);
+				color: #fff;
 			}
 
 				#footer .copyright a:hover
 				{
-					color: rgba(212,212,212,0.85);
+					color: #fff;
 				}
 
 /*********************************************************************************/

@@ -7,9 +7,14 @@ app.config['DEBUG'] = True
 
 
 @app.route('/')
+@app.route('/index.html')
 def hello():
     """Return a friendly HTTP greeting."""
     return render_template('index.html')
+	
+@app.route('/<page>')
+def show_page(page):
+	return render_template(page)
 
 
 @app.errorhandler(404)

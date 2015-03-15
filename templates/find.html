@@ -65,47 +65,32 @@
 
         <!-- One -->
 			<section id="one" class="spotlight style1 right">
-				<div>
-				Right Content.
-				</div>
-				<div>
-					<div class="content">
-					</div>
-					<span class="image fit main"><img src="static/images/pic02.jpg" alt="" /></span>
-					<div class="content">
-					content
-						<div class="container">
-						container
-							<div class="row">
-							row
-								<div class="4u 12u(medium)">
-									<header>
-										<h2>Tell us about yourself</h2>
-									</header>
-								</div>
+				<span class="image fit main"><img src="static/images/pic02.jpg" alt="" /></span>
+				<div class="content">
+					<div class="container">
+						<div class="row">
+							<div class="4u 12u(medium)">
+								<header>
+									<h2>Tell us about yourself</h2>
+								</header>
 							</div>
 						</div>
+                        <div class="row">
+                            <form name="identityform" method="post" action="save-identity">
+                                <div class="12u -4u 10u(mobile)">
+                                    <input type="text" name="firstname" placeholder="First Name">
+                                </div>
+                            </form>
+                        </div>
 					</div>
-					<a href="#two" class="goto-next scrolly">Next</a>
 				</div>
+				<a href="#two" class="goto-next scrolly">Next</a>
 			</section>
 
 
 		<!-- One -->
-			<section id="two" class="spotlight style1 right">
-				<div class="content">
-                    <div class="container">
-						<div class="row">
-							<div class="4u 12u(medium)">
-								<header>
-									<h2>Great! What are you looking for?</h2>
-									
-								</header>
-							</div>
-							
-						</div>
-					</div>
-                </div>
+			<section id="two" class="spotlight style2 right">
+				<span class="image fit main"><img src="static/images/pic02.jpg" alt="" /></span>
 				<div class="content">
 					<div class="container">
 						<div class="row">
@@ -123,18 +108,16 @@
 			</section>
 
 		<!-- One -->
-			<section id="three" class="spotlight style1 bottom">
+			<section id="three" class="spotlight style3 top">
 				<span class="image fit main"><img src="static/images/pic02.jpg" alt="" /></span>
 				<div class="content">
 					<div class="container">
 						<div class="row">
-							<div class="4u 12u$(medium)">
+							<div class="4u -4u 12u(medium)">
 								<header>
-									<h2>That's it!</h2>
+                                    <h2>That's it! <br/> You're all finished.</h2>
+									
 								</header>
-							</div>
-							<div class="4u 12u(medium)">
-								<p>Now that we know what you are looking for we will let you know as soon as a listing that matches your criteria is posted.</p>
 							</div>
 						</div>
 					</div>
@@ -145,12 +128,26 @@
 
 		
 		<!-- Footer -->
-			<div id="footer">
+			<div id="footer1">
 				<div class="container">
 					
 					<div class="row">
 						<div class="12u">
 							
+							<!-- Contact -->
+								<section class="contact">
+									<header>
+										<h3>Connect With Us</h3>
+									</header>
+									<ul class="icons">
+										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+										<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+										<li><a href="#" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+									</ul>
+								</section>
 							
 							<!-- Copyright -->
 								<div class="copyright">
@@ -164,6 +161,5 @@
 					</div>
 				</div>
 			</div>
-
 	</body>
 </html>

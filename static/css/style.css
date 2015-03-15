@@ -1356,6 +1356,66 @@
 					color: #fff;
 				}
 
+    #footer1
+	{
+		position: relative;
+		overflow: hidden;
+		padding: 6em 0 6em 0;
+		background: #2b252c;
+		color: #fff;
+	}
+
+		#footer1 .icon.circled
+		{
+			background: #fff;
+			color: #2b252c;
+		}
+
+		#footer1 header
+		{
+			text-align: center;
+			cursor: default;
+		}
+		
+		#footer1 h2,
+		#footer1 h3,
+		#footer1 h4,
+		#footer1 h5,
+		#footer1 h6
+		{
+			color: #fff;
+		}
+
+		#footer1 .contact
+		{
+			text-align: center;
+		}
+		
+			#footer1 .contact p
+			{
+				text-align: center;
+				margin: 0 0 3em 0;
+			}
+		
+		#footer1 .copyright
+		{
+			text-align: center;
+			color: rgba(128,128,128,0.75);
+			font-size: 0.8em;
+			cursor: default;
+		}
+
+			#footer1 .copyright a
+			{
+				color: rgba(128,128,128,0.75);
+			}
+
+				#footer1 .copyright a:hover
+				{
+					color: rgba(212,212,212,0.85);
+				}
+
+
 /*********************************************************************************/
 /* Carousel                                                                      */
 /*********************************************************************************/

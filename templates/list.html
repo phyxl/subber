@@ -136,12 +136,16 @@
                                             <h3>When are you subleasing?</h3>
                                         </div>
                                     </div>
-									<div class="12u 10u(mobile)">
-										<select>
-                                            <option>Spring</option>
-                                             <option>Summer</option>
-                                             <option>Fall</option>
-                                        </select>
+                                    <div class="12u$">
+										<div class="select-wrapper">
+											<select name="demo-category" id="demo-category">
+												<option value="">- Lease Period -</option>
+												<option value="1">Spring</option>
+												<option value="1">Summer</option>
+												<option value="1">Fall</option>
+												<option value="1">Winter</option>
+											</select>
+										</div>
 									</div>
 								</div>
                                 <div class="row">
@@ -184,18 +188,27 @@
 									
 								</header>
 							</div>
-							<form class="8u" name="specialtags" method="post" action="save-tags">
+							<form method="post" class="8u" action="#">
                                 <div class="row">
                                     <div class="12u">
-                                        <h3>What makes you're space special?</h3>
+                                        <h3>What makes your place special?</h3>
                                     </div>
                                 </div>
 								<div class="row">
-									<div class="12u 10u(mobile)">
-										<input type="text" name="place" placeholder="" style="min-height:200px;">
+									<div class="12u$">
+										<textarea name="demo-message" id="demo-message" placeholder="E.g. location, pet friendly" rows="6"></textarea>
 									</div>
 								</div>
-                                
+                                <div class="row">
+                                    <div class="12u">
+                                        <h3>What are you looking for in a subleaser?</h3>
+                                    </div>
+                                </div>
+								<div class="row">
+									<div class="12u$">
+										<textarea name="demo-message" id="demo-message" placeholder="E.g. non-smoking" rows="6"></textarea>
+									</div>
+								</div>
 							</form>
 						</div>
 					</div>

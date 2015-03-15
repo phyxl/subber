@@ -641,7 +641,7 @@
 	}
 
 		.goto-next:before {
-			background-image: url("static/images/arrow.svg");
+			background-image: url("images/arrow.svg");
 			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: contain;
@@ -1418,7 +1418,7 @@
 				position: absolute;
 				top: 50%;
 				margin: -1.5em 0 0 0;
-				background: url('static/images/arrow.svg') no-repeat center center;
+				background: url('images/arrow.svg') no-repeat center center;
 			}
 
 			.carousel .forward:after

@@ -158,10 +158,10 @@
 		{
 			content: '';
 			position: absolute;
-			top: -8px;
+			top: -16px;
 			display: block;
 			width: 1px;
-			height: 21px;
+			height: 30px;
 			background: rgba(128,128,128,0.2);			
 		}
 
@@ -964,7 +964,7 @@
 /* Header                                                                        */
 /*********************************************************************************/
 
-	#header
+#header
 	{
 		position: relative;
 		background-image: url('../images/header.jpg');
@@ -1069,6 +1069,7 @@
 			{
 				background: rgba(192,192,192,0.35);
 			}
+
 
 /*********************************************************************************/
 /* Nav                                                                           */
@@ -1361,7 +1362,7 @@
 		position: relative;
 		overflow: hidden;
 		padding: 6em 0 6em 0;
-		background: #2b252c;
+		background: rgba(23, 24, 32, 0.95);
 		color: #fff;
 	}
 

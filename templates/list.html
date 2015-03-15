@@ -64,7 +64,7 @@
 			</div>
 			
 
-          <!-- One -->
+        <!-- One -->
 			<section id="one" class="spotlight style1 right">
 				<span class="image fit main"><img src="static/images/pic02.jpg" alt="" /></span>
 				<div class="content">
@@ -89,19 +89,27 @@
 										<input type="text" name="email" placeholder="Email Address">
 									</div>
 								</div>
+                                <div class="row">
+									<div class="12u 10u(mobile)">
+										<input type="text" name="phone" placeholder="Phone Number">
+									</div>
+								</div>
 							</form>
 						</div>
-						<div class="row">
-							<div class="12u 12u(medium)">
-							</div>
-						</div>
-						<div class="row">
-							<div class="12u 12u(medium)" >
+                        <div class="row">
+                            <div class="12u 50%">
+                                <h3 style="text-align: center">or</h3>
+                            </div>
+                        </div>
+                        <div class="row"> 
+                            <div class="4u"></div>
+                            <div class="4u 12u(medium)" >
 								<div style="background-color: #7490c3;color: #fff; height:56px; text-align:center; line-height:56px;border-radius:.5em;">
-								Login with facebook
+								Login with Facebook
 								</div>
 							</div>
-						</div>
+                            <div class="4u"></div>
+                        </div>
 					</div>
 				</div>
 				<a href="#two" class="goto-next scrolly">Next</a>
@@ -116,48 +124,121 @@
 						<div class="row">
 							<div class="4u 12u(medium)">
 								<header>
-									<h2>Great! Tell us about the place.</h2>
+									<h2>Great! Let's talk about your sublease.</h2>
 									
 								</header>
 							</div>
-							
+							<form class="8u" name="housepreference" method="post" action="save-preference">
+                                <div class="row">
+                                    <div class="row">
+                                        <div class="12u">
+                                            <h3>When are you subleasing?</h3>
+                                        </div>
+                                    </div>
+									<div class="12u 10u(mobile)">
+										<select>
+                                            <option>Spring</option>
+                                             <option>Summer</option>
+                                             <option>Fall</option>
+                                        </select>
+									</div>
+								</div>
+                                <div class="row">
+                                    <div class="12u">
+                                        <h3>How much is rent? (per month)</h3>
+                                    </div>
+                                </div>
+								<div class="row">
+									<div class="5u 10u(mobile)">
+										<input type="text" name="pricelow" placeholder="">
+									</div>
+								</div>
+                                <div class="row">
+                                    <div class="12u">
+                                        <h3>What's the address?</h3>
+                                    </div>
+                                </div>
+								<div class="row">
+									<div class="12u 10u(mobile)">
+										<input type="text" name="place" placeholder="">
+									</div>
+								</div>
+                                
+							</form>
 						</div>
 					</div>
 				</div>
 				<a href="#three" class="goto-next scrolly">Next</a>
 			</section>
-
-		<!-- One -->
-			<section id="three" class="spotlight style3 top">
+        
+        <!-- One -->
+			<section id="three" class="spotlight style4 right">
 				<span class="image fit main"><img src="static/images/pic02.jpg" alt="" /></span>
 				<div class="content">
 					<div class="container">
 						<div class="row">
-							<div class="12u 12u(medium)">
-								<header style="text-align:center;">
+							<div class="4u 12u(medium)">
+								<header>
+									<h2>Are you looking for?</h2>
+									
+								</header>
+							</div>
+							<form class="8u" name="specialtags" method="post" action="save-tags">
+                                <div class="row">
+                                    <div class="12u">
+                                        <h3></h3>
+                                    </div>
+                                </div>
+								<div class="row">
+									<div class="5u 10u(mobile)">
+										<input type="text" name="pricelow" placeholder="">
+									</div>
+                                    <div class="2u 10u(mobile)">
+                                        <h2 style="text-align:center">to</h2>
+                                    </div>
+									<div class="5u 10u(mobile)">
+										<input type="text" name="pricehigh" placeholder="">
+									</div>
+								</div>
+                                <div class="row">
+                                    <div class="12u">
+                                        <h3>Where would you like to stay?</h3>
+                                    </div>
+                                </div>
+								<div class="row">
+									<div class="12u 10u(mobile)">
+										<input type="text" name="place" placeholder="">
+									</div>
+								</div>
+                                
+							</form>
+						</div>
+					</div>
+				</div>
+				<a href="#four" class="goto-next scrolly">Next</a>
+			</section>
+        
+        <!-- One -->
+			<section id="four" class="spotlight style3 top">
+				<span class="image fit main"><img src="static/images/pic02.jpg" alt="" /></span>
+				<div class="content">
+					<div class="container">
+						<div class="row">
+							<div class="4u -4u 12u(medium)">
+								<header>
                                     <h2>That's it! <br/> You're all finished.</h2>
 									
 								</header>
 							</div>
 						</div>
-						<div class="row">
-							<div class="12u 12u(medium)">
-								<header style="text-align:center; color:#fff;">
-                                    We'll let you know when we find a match for your place!									
-								</header>
-							</div>
-						</div>
-						<div class="row">
-							<div class="12u 12u(medium)">
-								<header style="text-align:center;">
-                                    <img src="static/images/subbitt-logo-t.png">					
-								</header>
-							</div>
-						</div>
+                        <div class="row">
+                            <div class="4u -4u 12u(medium)">
+                                <h3>Relax, take a breath. We'll take care of the work from here. We'll let you know when we have a match!</h3>
+                            </div>
+                        </div>
 					</div>
 				</div>
 			</section>
-
 		
 		<!-- Footer -->
 			<div id="footer1">

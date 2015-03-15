@@ -174,7 +174,10 @@
 		{
 			right: -1px;
 		}
-
+    #subbitt
+    {
+        font-family: 'Noto Sans', sans-serif;
+    }
 	.timestamp
 	{
 		color: rgba(128,128,128,0.75);
@@ -800,6 +803,7 @@
 		}
 
 		.spotlight.top .content, .spotlight.bottom .content {
+            height: 100%;
 			left: 0;
 			padding: 5.1em 0 3.1em 0;
 			width: 100%;
@@ -819,7 +823,7 @@
 			height: 101%;
 			padding: 6em 3em;
 			top: 0;
-			width: 28em;
+			width: 100%;
 		}
 
 		.spotlight.left .content {

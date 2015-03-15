@@ -1016,6 +1016,16 @@
 			margin: 0;
 			padding: 4em 0 0 0;
 		}
+
+        #header .inner1
+		{
+			position: relative;
+			z-index: 1;
+			margin-top: -10em;
+			padding: 4em;
+            background-image: url("/static/images/background.png");
+		}
+
 	
 		#header h1
 		{

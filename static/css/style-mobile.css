@@ -144,7 +144,7 @@
 		.button
 		{
 			display: block;
-			padding: 0;
+			padding: 5px;
 			line-height: 3em;
 			width: 100%;
 		}
